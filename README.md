@@ -1,4 +1,4 @@
-# E.-coli-Biofilm-Stress-Analysis-via-Light-sheet-Microscopy
+# E.coli Biofilm Stress Analysis via Light sheet Microscopy
 Quantitative image analysis pipeline for tracking gene expression dynamics in E. coli biofilms under metabolic stress, from Light Sheet Fluorescence Microscopy (LSFM) time-lapse data. Processes GFP fluorescence intensity (pRpoH heat-stress reporter) across microfluidic chip experiments, reconstructing community-level expression curves over time.
 Background
 
