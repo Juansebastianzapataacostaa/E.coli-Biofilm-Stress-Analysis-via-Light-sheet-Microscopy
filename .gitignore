@@ -1,0 +1,20 @@
+# Archivos del sistema y caché de Python
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+
+# Bloquear imágenes pesadas de microscopía y resultados locales
+*.tif
+*.tiff
+*.gif
+imagen-*.png
+
+# Bloquear carpetas locales de datos
+data/
+stacks/
+output_plots/
+
+# Permitir explícitamente el archivo de requerimientos
+!requirements.txt
