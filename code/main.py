@@ -20,7 +20,7 @@ from skimage import filters
 import time
 
 
-import libreria_MM as lib
+import image_processing as lib
 
 # Libreria para paralelizar el procesamiento de imagenes    
 from joblib import Parallel, delayed    
