@@ -3,6 +3,7 @@
 Quantitative image analysis pipeline for tracking gene expression dynamics in E. coli biofilms under metabolic stress, from Light Sheet Fluorescence Microscopy (LSFM) time-lapse data. Processes GFP fluorescence intensity (pRpoH heat-stress reporter) across microfluidic chip experiments, reconstructing community-level expression curves over time.
 
 ![LSFM Setup](images/montaje.png)
+
 Figure 1. System setup. In A, we can see an image of the general LSFM-SPIM setup, starting with a 488nm laser passing through an AOTF for modulation. The chip is placed inside a water-filled chamber for sample acquisition through the coverslip. B shows a close-up highlighting the specific sample identification using a dedicated detection objective.
 
 ## Background
@@ -63,6 +64,7 @@ Before running the Python pipeline, raw LSFM images must be pre-processed in **F
 | **reconstruct_intensity.py** | Post-processing module. Reads per-image intensity outputs and reconstructs the community-level gene expression curve across time. |
 
 ![Image Segmentation](images/mascaras.png)
+
 Figure 2: Image reconstruction workflow. This workflow tracks intensity values for microorganisms and their communities over time. The pipeline generates two processed images from the original frame: A) Original image captured by the microscope, showing the organisms at a specific time point. B) Intensity-based segmentation, where numerical values are extracted for organisms of this size, highlighted in yellow. C) Contrast/Background mask, where everything not identified as an "organism" is isolated as background, acting as the exact inverse of image B.
 
 ## Experimental context
